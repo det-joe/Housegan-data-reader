@@ -273,7 +273,7 @@ def raster_to_json(line):
    
   
     ### saving json files
-    with open("../../../../../guriv-64/hg_rooms/"+line[17:-4]+".json","w") as f:
+    with open("./sample_output/"+line[8:-4]+".json","w") as f:
          json.dump(info, f)
 
 
